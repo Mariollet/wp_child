@@ -1,10 +1,10 @@
 <?php
 
-add_shortcode("wp_shortcode_1", "wpShortcode1"); // [wp_shortcode_1]
-function wpShortcode1($params)
+add_shortcode("wp_qrcode", "wpQrcode"); // [wp_qrcode]
+function wpQrcode($params)
 {
   ob_start();
-  include __DIR__ . '/../templates/front/shortcodes/shortcode_1.php';
+  include __DIR__ . '/../templates/front/shortcodes/qrcode.php';
   $content = ob_get_contents();
   ob_end_clean();
 

@@ -6,3 +6,8 @@ h1 {
     margin-top: 0;
     text-transform: uppercase;
 }
+
+section {
+    padding: 60px 0 !important;
+    text-align: center !important;
+}
